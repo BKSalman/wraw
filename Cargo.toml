@@ -1,0 +1,16 @@
+[package]
+name = "wraw"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+  "xtask"
+]
+
+[dependencies]
+axum = { version = "0.8.4", features = ["macros"], optional = true }
+dioxus-devtools = { git = "https://github.com/dioxuslabs/dioxus", version = "0.7.0-rc.0", features = ["serve"], optional = true }
+tokio = { version = "1.47.1", features = ["full"], optional = true}
+wasm-bindgen = "0.2.100"
+web-sys = { version = "0.3.77", features = ["Node", "Document", "Element", "Window", "Text", "HtmlBodyElement", "DomTokenList"] }
