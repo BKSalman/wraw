@@ -111,24 +111,45 @@ impl {element_type_name} {{
 
         for attr in &element_info.attributes {
             if let Some(attr_spec) = attributes_spec.attributes.get(attr) {
-                if attr_spec.value_type == "Boolean attribute" {
-                    let attr_fn = if RUST_KEYWORDS.contains(&attr.as_str()) {
-                        format!("r#{attr}")
-                    } else {
-                        attr.to_string()
-                    };
+                let attr_fn = if RUST_KEYWORDS.contains(&attr.as_str()) {
+                    format!("r#{attr}")
+                } else {
+                    attr.to_string()
+                };
 
-                    write!(
-                        &mut writer,
-                        r#"
+                let desc = &attr_spec.desc;
+
+                match attr_spec.value_type.as_str() {
+                    "Boolean attribute" => {
+                        write!(
+                            &mut writer,
+                            r#"
+    /// {desc}
     pub fn {attr_fn}(self) -> Self {{
         self.0.set_attribute("{attr}", "true").expect("set attribute");
 
         self
     }}
 "#
-                    )
-                    .with_context(|| "writing {attr} function")?;
+                        )
+                        .with_context(|| "writing {attr} function")?;
+                    }
+                    "Valid non-empty URL potentially surrounded by spaces" => {
+                        write!(
+                            &mut writer,
+                            r#"
+    /// {desc}
+    pub fn {attr_fn}(self, src: &str) -> Self {{
+        self.0.set_attribute("{attr}", src).expect("set attribute");
+
+        self
+    }}
+"#
+                        )
+                        .with_context(|| "writing {attr} function")?;
+                    }
+
+                    _ => {}
                 }
             }
         }

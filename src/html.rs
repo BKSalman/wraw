@@ -33,12 +33,14 @@ impl A {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -85,12 +87,14 @@ impl Abbr {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -137,12 +141,14 @@ impl Address {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -189,12 +195,14 @@ impl Area {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -241,12 +249,14 @@ impl Article {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -293,12 +303,14 @@ impl Aside {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -345,38 +357,51 @@ impl Audio {
         ui(Ui(self.0))
     }
 
+    /// Hint that the media resource can be started automatically when the page is loaded
     pub fn autoplay(self) -> Self {
         self.0.set_attribute("autoplay", "true").expect("set attribute");
 
         self
     }
 
+    /// Show user agent controls
     pub fn controls(self) -> Self {
         self.0.set_attribute("controls", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to loop the media resource
     pub fn r#loop(self) -> Self {
         self.0.set_attribute("loop", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to mute the media resource by default
     pub fn muted(self) -> Self {
         self.0.set_attribute("muted", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -421,12 +446,14 @@ impl B {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -473,12 +500,14 @@ impl Base {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -525,12 +554,14 @@ impl Bdi {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -577,12 +608,14 @@ impl Bdo {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -629,12 +662,14 @@ impl Blockquote {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -681,12 +716,14 @@ impl Body {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -733,12 +770,14 @@ impl Br {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -785,24 +824,35 @@ impl Button {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// URL to use for form submission
+    pub fn formaction(self, src: &str) -> Self {
+        self.0.set_attribute("formaction", src).expect("set attribute");
+
+        self
+    }
+
+    /// Bypass form control validation for form submission
     pub fn formnovalidate(self) -> Self {
         self.0.set_attribute("formnovalidate", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -849,12 +899,14 @@ impl Canvas {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -901,12 +953,14 @@ impl Caption {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -953,12 +1007,14 @@ impl Cite {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1005,12 +1061,14 @@ impl Code {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1057,12 +1115,14 @@ impl Col {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1109,12 +1169,14 @@ impl Colgroup {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1161,12 +1223,14 @@ impl Data {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1213,12 +1277,14 @@ impl Datalist {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1265,12 +1331,14 @@ impl Dd {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1317,12 +1385,14 @@ impl Del {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1369,18 +1439,21 @@ impl Details {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the details are visible
     pub fn open(self) -> Self {
         self.0.set_attribute("open", "true").expect("set attribute");
 
@@ -1427,12 +1500,14 @@ impl Dfn {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1479,18 +1554,21 @@ impl Dialog {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the details are visible
     pub fn open(self) -> Self {
         self.0.set_attribute("open", "true").expect("set attribute");
 
@@ -1537,12 +1615,14 @@ impl Div {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1589,12 +1669,14 @@ impl Dl {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1641,12 +1723,14 @@ impl Dt {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1693,12 +1777,14 @@ impl Em {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1745,14 +1831,23 @@ impl Embed {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -1797,18 +1892,21 @@ impl Fieldset {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1855,12 +1953,14 @@ impl Figcaption {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1907,12 +2007,14 @@ impl Figure {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -1959,12 +2061,14 @@ impl Footer {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2011,18 +2115,28 @@ impl Form {
         ui(Ui(self.0))
     }
 
+    /// URL to use for form submission
+    pub fn action(self, src: &str) -> Self {
+        self.0.set_attribute("action", src).expect("set attribute");
+
+        self
+    }
+
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Bypass form control validation for form submission
     pub fn novalidate(self) -> Self {
         self.0.set_attribute("novalidate", "true").expect("set attribute");
 
@@ -2069,12 +2183,14 @@ impl H1 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2121,12 +2237,14 @@ impl H2 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2173,12 +2291,14 @@ impl H3 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2225,12 +2345,14 @@ impl H4 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2277,12 +2399,14 @@ impl H5 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2329,12 +2453,14 @@ impl H6 {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2381,12 +2507,14 @@ impl Head {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2433,12 +2561,14 @@ impl Header {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2485,12 +2615,14 @@ impl Hgroup {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2537,12 +2669,14 @@ impl Hr {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2589,14 +2723,23 @@ impl Html {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Application cache manifest
+    pub fn manifest(self, src: &str) -> Self {
+        self.0.set_attribute("manifest", src).expect("set attribute");
 
         self
     }
@@ -2641,12 +2784,14 @@ impl I {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2693,26 +2838,37 @@ impl Iframe {
         ui(Ui(self.0))
     }
 
+    /// Whether to allow the iframe's contents to use requestFullscreen()
     pub fn allowfullscreen(self) -> Self {
         self.0.set_attribute("allowfullscreen", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the iframe's contents are allowed to use the PaymentRequest interface to make payment requests
     pub fn allowpaymentrequest(self) -> Self {
         self.0.set_attribute("allowpaymentrequest", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -2757,20 +2913,30 @@ impl Img {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the image is a server-side image map
     pub fn ismap(self) -> Self {
         self.0.set_attribute("ismap", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -2815,50 +2981,72 @@ impl Input {
         ui(Ui(self.0))
     }
 
+    /// Whether the control is checked
     pub fn checked(self) -> Self {
         self.0.set_attribute("checked", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// URL to use for form submission
+    pub fn formaction(self, src: &str) -> Self {
+        self.0.set_attribute("formaction", src).expect("set attribute");
+
+        self
+    }
+
+    /// Bypass form control validation for form submission
     pub fn formnovalidate(self) -> Self {
         self.0.set_attribute("formnovalidate", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to allow multiple values
     pub fn multiple(self) -> Self {
         self.0.set_attribute("multiple", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to allow the value to be edited by the user
     pub fn readonly(self) -> Self {
         self.0.set_attribute("readonly", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the control is required for form submission
     pub fn required(self) -> Self {
         self.0.set_attribute("required", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -2903,12 +3091,14 @@ impl Ins {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -2955,12 +3145,14 @@ impl Kbd {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3007,12 +3199,14 @@ impl Label {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3059,12 +3253,14 @@ impl Legend {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3111,12 +3307,14 @@ impl Li {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3163,12 +3361,14 @@ impl Link {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3215,12 +3415,14 @@ impl Main {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3267,12 +3469,14 @@ impl Map {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3319,12 +3523,14 @@ impl Mark {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3411,12 +3617,14 @@ impl Menu {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3463,12 +3671,14 @@ impl Meta {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3515,12 +3725,14 @@ impl Meter {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3567,12 +3779,14 @@ impl Nav {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3619,12 +3833,14 @@ impl Noscript {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3671,12 +3887,21 @@ impl Object {
         ui(Ui(self.0))
     }
 
+    /// Address of the resource
+    pub fn data(self, src: &str) -> Self {
+        self.0.set_attribute("data", src).expect("set attribute");
+
+        self
+    }
+
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3723,18 +3948,21 @@ impl Ol {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Number the list backwards
     pub fn reversed(self) -> Self {
         self.0.set_attribute("reversed", "true").expect("set attribute");
 
@@ -3781,18 +4009,21 @@ impl Optgroup {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3839,24 +4070,28 @@ impl Option {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the option is selected by default
     pub fn selected(self) -> Self {
         self.0.set_attribute("selected", "true").expect("set attribute");
 
@@ -3903,12 +4138,14 @@ impl Output {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -3955,12 +4192,14 @@ impl P {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4007,12 +4246,14 @@ impl Param {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4059,12 +4300,14 @@ impl Picture {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4111,12 +4354,14 @@ impl Pre {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4163,12 +4408,14 @@ impl Progress {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4215,12 +4462,14 @@ impl Q {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4267,12 +4516,14 @@ impl Rp {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4319,12 +4570,14 @@ impl Rt {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4371,12 +4624,14 @@ impl Ruby {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4423,12 +4678,14 @@ impl S {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4475,12 +4732,14 @@ impl Samp {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4527,26 +4786,37 @@ impl Script {
         ui(Ui(self.0))
     }
 
+    /// Execute script when available, without blocking while fetching
     pub fn r#async(self) -> Self {
         self.0.set_attribute("async", "true").expect("set attribute");
 
         self
     }
 
+    /// Defer script execution
     pub fn defer(self) -> Self {
         self.0.set_attribute("defer", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -4591,12 +4861,14 @@ impl Section {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4643,30 +4915,35 @@ impl Select {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to allow multiple values
     pub fn multiple(self) -> Self {
         self.0.set_attribute("multiple", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the control is required for form submission
     pub fn required(self) -> Self {
         self.0.set_attribute("required", "true").expect("set attribute");
 
@@ -4713,12 +4990,14 @@ impl Slot {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4765,12 +5044,14 @@ impl Small {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4817,14 +5098,23 @@ impl Source {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -4869,12 +5159,14 @@ impl Span {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4921,12 +5213,14 @@ impl Strong {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -4973,12 +5267,14 @@ impl Style {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5025,12 +5321,14 @@ impl Sub {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5077,12 +5375,14 @@ impl Summary {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5129,12 +5429,14 @@ impl Sup {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5221,12 +5523,14 @@ impl Table {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5273,12 +5577,14 @@ impl Tbody {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5325,12 +5631,14 @@ impl Td {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5377,12 +5685,14 @@ impl Template {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5429,30 +5739,35 @@ impl Textarea {
         ui(Ui(self.0))
     }
 
+    /// Whether the form control is disabled
     pub fn disabled(self) -> Self {
         self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to allow the value to be edited by the user
     pub fn readonly(self) -> Self {
         self.0.set_attribute("readonly", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the control is required for form submission
     pub fn required(self) -> Self {
         self.0.set_attribute("required", "true").expect("set attribute");
 
@@ -5499,12 +5814,14 @@ impl Tfoot {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5551,12 +5868,14 @@ impl Th {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5603,12 +5922,14 @@ impl Thead {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5655,12 +5976,14 @@ impl Time {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5707,12 +6030,14 @@ impl Title {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5759,12 +6084,14 @@ impl Tr {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5811,20 +6138,30 @@ impl Track {
         ui(Ui(self.0))
     }
 
+    /// Enable the track if no other text track is more suitable
     pub fn default(self) -> Self {
         self.0.set_attribute("default", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -5869,12 +6206,14 @@ impl U {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5921,12 +6260,14 @@ impl Ul {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -5973,12 +6314,14 @@ impl Var {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
@@ -6025,44 +6368,65 @@ impl Video {
         ui(Ui(self.0))
     }
 
+    /// Hint that the media resource can be started automatically when the page is loaded
     pub fn autoplay(self) -> Self {
         self.0.set_attribute("autoplay", "true").expect("set attribute");
 
         self
     }
 
+    /// Show user agent controls
     pub fn controls(self) -> Self {
         self.0.set_attribute("controls", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to loop the media resource
     pub fn r#loop(self) -> Self {
         self.0.set_attribute("loop", "true").expect("set attribute");
 
         self
     }
 
+    /// Whether to mute the media resource by default
     pub fn muted(self) -> Self {
         self.0.set_attribute("muted", "true").expect("set attribute");
 
         self
     }
 
+    /// Encourage the user agent to display video content within the element's playback area
     pub fn playsinline(self) -> Self {
         self.0.set_attribute("playsinline", "true").expect("set attribute");
+
+        self
+    }
+
+    /// Poster frame to show prior to video playback
+    pub fn poster(self, src: &str) -> Self {
+        self.0.set_attribute("poster", src).expect("set attribute");
+
+        self
+    }
+
+    /// Address of the resource
+    pub fn src(self, src: &str) -> Self {
+        self.0.set_attribute("src", src).expect("set attribute");
 
         self
     }
@@ -6107,12 +6471,14 @@ impl Wbr {
         ui(Ui(self.0))
     }
 
+    /// Whether the element is relevant
     pub fn hidden(self) -> Self {
         self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
+    /// Introduces a microdata item
     pub fn itemscope(self) -> Self {
         self.0.set_attribute("itemscope", "true").expect("set attribute");
 

@@ -12,5 +12,6 @@ fn main() {
                 ui.button().text("xqcL");
             });
         ui.button().text("WOW");
+        ui.video().r#loop().text("lmao").src("");
     });
 }
