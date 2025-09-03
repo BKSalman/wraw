@@ -33,14 +33,14 @@ impl A {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -85,14 +85,14 @@ impl Abbr {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -137,14 +137,14 @@ impl Address {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -189,14 +189,14 @@ impl Area {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -241,14 +241,14 @@ impl Article {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -293,14 +293,14 @@ impl Aside {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -345,38 +345,38 @@ impl Audio {
         ui(Ui(self.0))
     }
 
-    pub fn autoplay(self, value: bool) -> Self {
-        self.0.set_attribute("autoplay", &value.to_string()).expect("set attribute");
+    pub fn autoplay(self) -> Self {
+        self.0.set_attribute("autoplay", "true").expect("set attribute");
 
         self
     }
 
-    pub fn controls(self, value: bool) -> Self {
-        self.0.set_attribute("controls", &value.to_string()).expect("set attribute");
+    pub fn controls(self) -> Self {
+        self.0.set_attribute("controls", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn r#loop(self, value: bool) -> Self {
-        self.0.set_attribute("loop", &value.to_string()).expect("set attribute");
+    pub fn r#loop(self) -> Self {
+        self.0.set_attribute("loop", "true").expect("set attribute");
 
         self
     }
 
-    pub fn muted(self, value: bool) -> Self {
-        self.0.set_attribute("muted", &value.to_string()).expect("set attribute");
+    pub fn muted(self) -> Self {
+        self.0.set_attribute("muted", "true").expect("set attribute");
 
         self
     }
@@ -421,14 +421,14 @@ impl B {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -473,14 +473,14 @@ impl Base {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -525,14 +525,14 @@ impl Bdi {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -577,14 +577,14 @@ impl Bdo {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -629,14 +629,14 @@ impl Blockquote {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -681,14 +681,14 @@ impl Body {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -733,14 +733,14 @@ impl Br {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -785,26 +785,26 @@ impl Button {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn formnovalidate(self, value: bool) -> Self {
-        self.0.set_attribute("formnovalidate", &value.to_string()).expect("set attribute");
+    pub fn formnovalidate(self) -> Self {
+        self.0.set_attribute("formnovalidate", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -849,14 +849,14 @@ impl Canvas {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -901,14 +901,14 @@ impl Caption {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -953,14 +953,14 @@ impl Cite {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1005,14 +1005,14 @@ impl Code {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1057,14 +1057,14 @@ impl Col {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1109,14 +1109,14 @@ impl Colgroup {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1161,14 +1161,14 @@ impl Data {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1213,14 +1213,14 @@ impl Datalist {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1265,14 +1265,14 @@ impl Dd {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1317,14 +1317,14 @@ impl Del {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1369,20 +1369,20 @@ impl Details {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn open(self, value: bool) -> Self {
-        self.0.set_attribute("open", &value.to_string()).expect("set attribute");
+    pub fn open(self) -> Self {
+        self.0.set_attribute("open", "true").expect("set attribute");
 
         self
     }
@@ -1427,14 +1427,14 @@ impl Dfn {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1479,20 +1479,20 @@ impl Dialog {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn open(self, value: bool) -> Self {
-        self.0.set_attribute("open", &value.to_string()).expect("set attribute");
+    pub fn open(self) -> Self {
+        self.0.set_attribute("open", "true").expect("set attribute");
 
         self
     }
@@ -1537,14 +1537,14 @@ impl Div {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1589,14 +1589,14 @@ impl Dl {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1641,14 +1641,14 @@ impl Dt {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1693,14 +1693,14 @@ impl Em {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1745,14 +1745,14 @@ impl Embed {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1797,20 +1797,20 @@ impl Fieldset {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1855,14 +1855,14 @@ impl Figcaption {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1907,14 +1907,14 @@ impl Figure {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -1959,14 +1959,14 @@ impl Footer {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2011,20 +2011,20 @@ impl Form {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn novalidate(self, value: bool) -> Self {
-        self.0.set_attribute("novalidate", &value.to_string()).expect("set attribute");
+    pub fn novalidate(self) -> Self {
+        self.0.set_attribute("novalidate", "true").expect("set attribute");
 
         self
     }
@@ -2069,14 +2069,14 @@ impl H1 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2121,14 +2121,14 @@ impl H2 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2173,14 +2173,14 @@ impl H3 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2225,14 +2225,14 @@ impl H4 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2277,14 +2277,14 @@ impl H5 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2329,14 +2329,14 @@ impl H6 {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2381,14 +2381,14 @@ impl Head {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2433,14 +2433,14 @@ impl Header {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2485,14 +2485,14 @@ impl Hgroup {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2537,14 +2537,14 @@ impl Hr {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2589,14 +2589,14 @@ impl Html {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2641,14 +2641,14 @@ impl I {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2693,26 +2693,26 @@ impl Iframe {
         ui(Ui(self.0))
     }
 
-    pub fn allowfullscreen(self, value: bool) -> Self {
-        self.0.set_attribute("allowfullscreen", &value.to_string()).expect("set attribute");
+    pub fn allowfullscreen(self) -> Self {
+        self.0.set_attribute("allowfullscreen", "true").expect("set attribute");
 
         self
     }
 
-    pub fn allowpaymentrequest(self, value: bool) -> Self {
-        self.0.set_attribute("allowpaymentrequest", &value.to_string()).expect("set attribute");
+    pub fn allowpaymentrequest(self) -> Self {
+        self.0.set_attribute("allowpaymentrequest", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2757,20 +2757,20 @@ impl Img {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn ismap(self, value: bool) -> Self {
-        self.0.set_attribute("ismap", &value.to_string()).expect("set attribute");
+    pub fn ismap(self) -> Self {
+        self.0.set_attribute("ismap", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2815,50 +2815,50 @@ impl Input {
         ui(Ui(self.0))
     }
 
-    pub fn checked(self, value: bool) -> Self {
-        self.0.set_attribute("checked", &value.to_string()).expect("set attribute");
+    pub fn checked(self) -> Self {
+        self.0.set_attribute("checked", "true").expect("set attribute");
 
         self
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn formnovalidate(self, value: bool) -> Self {
-        self.0.set_attribute("formnovalidate", &value.to_string()).expect("set attribute");
+    pub fn formnovalidate(self) -> Self {
+        self.0.set_attribute("formnovalidate", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn multiple(self, value: bool) -> Self {
-        self.0.set_attribute("multiple", &value.to_string()).expect("set attribute");
+    pub fn multiple(self) -> Self {
+        self.0.set_attribute("multiple", "true").expect("set attribute");
 
         self
     }
 
-    pub fn readonly(self, value: bool) -> Self {
-        self.0.set_attribute("readonly", &value.to_string()).expect("set attribute");
+    pub fn readonly(self) -> Self {
+        self.0.set_attribute("readonly", "true").expect("set attribute");
 
         self
     }
 
-    pub fn required(self, value: bool) -> Self {
-        self.0.set_attribute("required", &value.to_string()).expect("set attribute");
+    pub fn required(self) -> Self {
+        self.0.set_attribute("required", "true").expect("set attribute");
 
         self
     }
@@ -2903,14 +2903,14 @@ impl Ins {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -2955,14 +2955,14 @@ impl Kbd {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3007,14 +3007,14 @@ impl Label {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3059,14 +3059,14 @@ impl Legend {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3111,14 +3111,14 @@ impl Li {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3163,14 +3163,14 @@ impl Link {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3215,14 +3215,14 @@ impl Main {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3267,14 +3267,14 @@ impl Map {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3319,14 +3319,14 @@ impl Mark {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3411,14 +3411,14 @@ impl Menu {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3463,14 +3463,14 @@ impl Meta {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3515,14 +3515,14 @@ impl Meter {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3567,14 +3567,14 @@ impl Nav {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3619,14 +3619,14 @@ impl Noscript {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3671,14 +3671,14 @@ impl Object {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3723,20 +3723,20 @@ impl Ol {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn reversed(self, value: bool) -> Self {
-        self.0.set_attribute("reversed", &value.to_string()).expect("set attribute");
+    pub fn reversed(self) -> Self {
+        self.0.set_attribute("reversed", "true").expect("set attribute");
 
         self
     }
@@ -3781,20 +3781,20 @@ impl Optgroup {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3839,26 +3839,26 @@ impl Option {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn selected(self, value: bool) -> Self {
-        self.0.set_attribute("selected", &value.to_string()).expect("set attribute");
+    pub fn selected(self) -> Self {
+        self.0.set_attribute("selected", "true").expect("set attribute");
 
         self
     }
@@ -3903,14 +3903,14 @@ impl Output {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -3955,14 +3955,14 @@ impl P {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4007,14 +4007,14 @@ impl Param {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4059,14 +4059,14 @@ impl Picture {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4111,14 +4111,14 @@ impl Pre {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4163,14 +4163,14 @@ impl Progress {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4215,14 +4215,14 @@ impl Q {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4267,14 +4267,14 @@ impl Rp {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4319,14 +4319,14 @@ impl Rt {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4371,14 +4371,14 @@ impl Ruby {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4423,14 +4423,14 @@ impl S {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4475,14 +4475,14 @@ impl Samp {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4527,26 +4527,26 @@ impl Script {
         ui(Ui(self.0))
     }
 
-    pub fn r#async(self, value: bool) -> Self {
-        self.0.set_attribute("async", &value.to_string()).expect("set attribute");
+    pub fn r#async(self) -> Self {
+        self.0.set_attribute("async", "true").expect("set attribute");
 
         self
     }
 
-    pub fn defer(self, value: bool) -> Self {
-        self.0.set_attribute("defer", &value.to_string()).expect("set attribute");
+    pub fn defer(self) -> Self {
+        self.0.set_attribute("defer", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4591,14 +4591,14 @@ impl Section {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4643,32 +4643,32 @@ impl Select {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn multiple(self, value: bool) -> Self {
-        self.0.set_attribute("multiple", &value.to_string()).expect("set attribute");
+    pub fn multiple(self) -> Self {
+        self.0.set_attribute("multiple", "true").expect("set attribute");
 
         self
     }
 
-    pub fn required(self, value: bool) -> Self {
-        self.0.set_attribute("required", &value.to_string()).expect("set attribute");
+    pub fn required(self) -> Self {
+        self.0.set_attribute("required", "true").expect("set attribute");
 
         self
     }
@@ -4713,14 +4713,14 @@ impl Slot {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4765,14 +4765,14 @@ impl Small {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4817,14 +4817,14 @@ impl Source {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4869,14 +4869,14 @@ impl Span {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4921,14 +4921,14 @@ impl Strong {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -4973,14 +4973,14 @@ impl Style {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5025,14 +5025,14 @@ impl Sub {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5077,14 +5077,14 @@ impl Summary {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5129,14 +5129,14 @@ impl Sup {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5221,14 +5221,14 @@ impl Table {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5273,14 +5273,14 @@ impl Tbody {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5325,14 +5325,14 @@ impl Td {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5377,14 +5377,14 @@ impl Template {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5429,32 +5429,32 @@ impl Textarea {
         ui(Ui(self.0))
     }
 
-    pub fn disabled(self, value: bool) -> Self {
-        self.0.set_attribute("disabled", &value.to_string()).expect("set attribute");
+    pub fn disabled(self) -> Self {
+        self.0.set_attribute("disabled", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn readonly(self, value: bool) -> Self {
-        self.0.set_attribute("readonly", &value.to_string()).expect("set attribute");
+    pub fn readonly(self) -> Self {
+        self.0.set_attribute("readonly", "true").expect("set attribute");
 
         self
     }
 
-    pub fn required(self, value: bool) -> Self {
-        self.0.set_attribute("required", &value.to_string()).expect("set attribute");
+    pub fn required(self) -> Self {
+        self.0.set_attribute("required", "true").expect("set attribute");
 
         self
     }
@@ -5499,14 +5499,14 @@ impl Tfoot {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5551,14 +5551,14 @@ impl Th {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5603,14 +5603,14 @@ impl Thead {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5655,14 +5655,14 @@ impl Time {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5707,14 +5707,14 @@ impl Title {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5759,14 +5759,14 @@ impl Tr {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5811,20 +5811,20 @@ impl Track {
         ui(Ui(self.0))
     }
 
-    pub fn default(self, value: bool) -> Self {
-        self.0.set_attribute("default", &value.to_string()).expect("set attribute");
+    pub fn default(self) -> Self {
+        self.0.set_attribute("default", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5869,14 +5869,14 @@ impl U {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5921,14 +5921,14 @@ impl Ul {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -5973,14 +5973,14 @@ impl Var {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
@@ -6025,44 +6025,44 @@ impl Video {
         ui(Ui(self.0))
     }
 
-    pub fn autoplay(self, value: bool) -> Self {
-        self.0.set_attribute("autoplay", &value.to_string()).expect("set attribute");
+    pub fn autoplay(self) -> Self {
+        self.0.set_attribute("autoplay", "true").expect("set attribute");
 
         self
     }
 
-    pub fn controls(self, value: bool) -> Self {
-        self.0.set_attribute("controls", &value.to_string()).expect("set attribute");
+    pub fn controls(self) -> Self {
+        self.0.set_attribute("controls", "true").expect("set attribute");
 
         self
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }
 
-    pub fn r#loop(self, value: bool) -> Self {
-        self.0.set_attribute("loop", &value.to_string()).expect("set attribute");
+    pub fn r#loop(self) -> Self {
+        self.0.set_attribute("loop", "true").expect("set attribute");
 
         self
     }
 
-    pub fn muted(self, value: bool) -> Self {
-        self.0.set_attribute("muted", &value.to_string()).expect("set attribute");
+    pub fn muted(self) -> Self {
+        self.0.set_attribute("muted", "true").expect("set attribute");
 
         self
     }
 
-    pub fn playsinline(self, value: bool) -> Self {
-        self.0.set_attribute("playsinline", &value.to_string()).expect("set attribute");
+    pub fn playsinline(self) -> Self {
+        self.0.set_attribute("playsinline", "true").expect("set attribute");
 
         self
     }
@@ -6107,14 +6107,14 @@ impl Wbr {
         ui(Ui(self.0))
     }
 
-    pub fn hidden(self, value: bool) -> Self {
-        self.0.set_attribute("hidden", &value.to_string()).expect("set attribute");
+    pub fn hidden(self) -> Self {
+        self.0.set_attribute("hidden", "true").expect("set attribute");
 
         self
     }
 
-    pub fn itemscope(self, value: bool) -> Self {
-        self.0.set_attribute("itemscope", &value.to_string()).expect("set attribute");
+    pub fn itemscope(self) -> Self {
+        self.0.set_attribute("itemscope", "true").expect("set attribute");
 
         self
     }

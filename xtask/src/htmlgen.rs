@@ -121,8 +121,8 @@ impl {element_type_name} {{
                     write!(
                         &mut writer,
                         r#"
-    pub fn {attr_fn}(self, value: bool) -> Self {{
-        self.0.set_attribute("{attr}", &value.to_string()).expect("set attribute");
+    pub fn {attr_fn}(self) -> Self {{
+        self.0.set_attribute("{attr}", "true").expect("set attribute");
 
         self
     }}
